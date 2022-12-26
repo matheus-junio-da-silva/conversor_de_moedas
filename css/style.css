@@ -1,0 +1,76 @@
+/* Aplicar estilo escuro na página inteira */
+body {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Aplicar estilo escuro no formulário */
+#currency-converter {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    height: 35px;
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+/* Aplicar estilo escuro nos campos de formulário */
+input, textarea {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+
+}
+
+/* Remover borda quando o campo de formulário é clicado */
+input:focus, textarea:focus {
+    outline: none;
+}   
+
+
+/* Aplicar estilo escuro nos botões */
+button {
+    background-color: #00e5ff;
+    color: #222;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    width: 100%;
+    border-radius: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+#resultado {
+    color: rgb(199, 238, 163);
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.red {
+    color: red !important;
+}
+
+@media (min-width: 768px) {
+    #container {
+        max-width: 40%;
+        font-size: 1.1em;
+    }
+    button {
+        font-size: 1em;
+    }
+}
